@@ -47,7 +47,8 @@ An ESP32-powered autonomous agricultural rover built and exhibited in 6 days at 
 ## 📐 Circuit Diagram
 ![Smart Autonomous Agricultural Robot Circuit](smart-agri-robot-car.png)
 
-*Editable Cirkit Designer project file: [`Smart Agri Robot circuit diagram.ckt`](your_circuit_file.ckt)*
+*Editable Cirkit Designer project file: [`Smart Agri Robot circuit diagram.ckt`](Smart%20Agri%20Robot%20circuit%20diagram.ckt)*
+
 
 
 ## 🚀 How to Run
