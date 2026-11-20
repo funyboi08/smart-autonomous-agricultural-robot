@@ -48,4 +48,4 @@ An ESP32-powered autonomous agricultural rover built and exhibited in 6 days at 
 1. Open `Smart AgriRobot.ino` in **Arduino IDE** with the **ESP32 Board Package (Core 3.x)** installed.
 2. Install the `ESP32Servo` library via Library Manager.
 3. Select **ESP32 Dev Module** and upload the sketch.
-4. Connect your phone/tablet to Wi-Fi network **`AgriRobot`** and open **`http://192.168.4.1`** in your browser.
+4. Connect your phone/tablet to Wi-Fi network **`AgriRobot`** and open **`Generated IP Address`** in your browser.
