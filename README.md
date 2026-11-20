@@ -8,12 +8,12 @@ An ESP32-powered autonomous agricultural rover built and exhibited in 6 days at 
 
 ## ⚡ Features
 - **Autonomous Obstacle Avoidance:** Front-mounted HC-SR04 ultrasonic sensor on a scanning SG90 servo compares left vs. right clearance using 3-sample median filtering to steer around obstacles.
-- **Automated Planting Cycle:** Every ~30 cm interval, the rover halts and runs a non-blocking multi-stage sequence:
+- **Automated Planting Cycle:** At programmed intervals, the rover halts and runs a non-blocking multi-stage sequence:
   1. Lowers a servo-mounted soil moisture probe (12-bit ADC readings calibrated between dry `3834` and wet `1278`).
   2. Executes 5 digging cycles using a rear SG90 actuator.
   3. Dispenses seeds via a servo-controlled hopper gate.
   4. Triggers an active-LOW relay water pump for targeted irrigation.
-- **Local Wi-Fi Web Dashboard:** Spins up an ESP32 Access Point (`SSID: AgriRobot` | `IP: 192.168.4.1`) for switching between **Auto** and **Manual** modes and viewing live telemetry from a phone or tablet.
+- **Local Wi-Fi Web Dashboard:** Spins up a standalone ESP32 Access Point (`SSID: AgriRobot`) for switching between **Auto** and **Manual** modes and viewing live telemetry from a mobile browser.
 
 ---
 
@@ -48,4 +48,4 @@ An ESP32-powered autonomous agricultural rover built and exhibited in 6 days at 
 1. Open `Smart AgriRobot.ino` in **Arduino IDE** with the **ESP32 Board Package (Core 3.x)** installed.
 2. Install the `ESP32Servo` library via Library Manager.
 3. Select **ESP32 Dev Module** and upload the sketch.
-4. Connect your phone/tablet to Wi-Fi network **`AgriRobot`** and open **`Generated IP Address`** in your browser.
+4. Connect your phone or tablet to the **`AgriRobot`** Wi-Fi network and open the web interface in your browser.
